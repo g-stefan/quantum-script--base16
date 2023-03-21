@@ -47,7 +47,7 @@ namespace XYO::QuantumScript::Extension::Base16 {
 
 	void initExecutive(Executive *executive, void *extensionId) {
 		String info = "Base16\r\n";
-		info << License::shortLicense();
+		info << License::shortLicense().c_str();
 
 		executive->setExtensionName(extensionId, "Base16");
 		executive->setExtensionInfo(extensionId, info);
