@@ -8,4 +8,4 @@
 #include <XYO/QuantumScript.Extension/Base16/Copyright.rh>
 #include <XYO/QuantumScript.Extension/Base16/Version.rh>
 
-XYO_APPLICATION_VERSION_INFO(XYO_QUANTUMSCRIPT_EXTENSION_BASE16,"quantum-script--base16.dll","Quantum Script Extension Base16")
+XYO_PLATFORM_VERSION_INFO(XYO_QUANTUMSCRIPT_EXTENSION_BASE16,"quantum-script--base16.dll","Quantum Script Extension Base16")
